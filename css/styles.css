@@ -1,0 +1,33 @@
+/* Common styles */
+
+/* Reset */
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+/**
+  |============================
+  | Header styles
+  |============================
+*/
+
+/**
+  |============================
+  | Main styles
+  |============================
+*/
+
+/**
+  |============================
+  | Footer styles
+  |============================
+*/
