@@ -1,14 +1,36 @@
-/* Common styles */
+:root {
+  /* Fonts */
+--primary-font: Roboto, sans-serif;
+--secondary-font: Raleway, sans-serif;
+  /* Colors */
+
+  /* Other */
+}
+
+/**
+  |============================
+  | Common styles
+  |============================
+*/
+
+body {
+
+}
+
+.title
 
 /* Reset */
+.list
 ul, ol {
     list-style: none;
 }
 
+.link
 a {
     text-decoration: none;
 }
 
+.btn
 button {
     font-family: inherit;
     cursor: pointer;
