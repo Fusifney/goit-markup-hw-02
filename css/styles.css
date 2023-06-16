@@ -1,9 +1,19 @@
 :root {
   /* Fonts */
---primary-font: Roboto, sans-serif;
---secondary-font: Raleway, sans-serif;
-  /* Colors */
-
+  --primary-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  /* Font Colors */
+  --primary-cl: #434455;
+  --secondary-cl: #2E2F42;
+  --tertiary-cl: #F4F4FD;
+  --web-cl: #4D5AE5;
+  --header-ahv-cl: #404BBF;
+  --hero-cl: #ffffff;
+  /* Background Colors */
+  --primary-bg-cl: #ffffff;
+  --secondary-bg-cl: #2E2F42;
+  --tertiary-bg-cl: #F4F4FD;
+  --btn-bg-cl: #4D5AE5;
   /* Other */
 }
 
@@ -14,26 +24,29 @@
 */
 
 body {
-
+  font-family: var(--primary-font);
+  font: size 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-cl);
+  background-color: var(--primary-bg-cl);
 }
-
-.title
 
 /* Reset */
-.list
-ul, ol {
-    list-style: none;
+
+.list {
+  list-style: none;
 }
 
-.link
-a {
-    text-decoration: none;
+.link {
+  text-decoration: none;
+  font-style: normal;
+  color: inherit;
 }
 
-.btn
-button {
-    font-family: inherit;
-    cursor: pointer;
+.btn {
+  font-family: inherit;
+  cursor: pointer;
 }
 
 /**
@@ -42,11 +55,76 @@ button {
   |============================
 */
 
+.web-logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--web-cl)
+}
+
+.studio-logo {
+  color: var(--secondary-cl);
+}
+
+.nav-list {
+  font-weight: 500;
+  color: var(--secondary-cl);
+}
+
+.nav-list .link:active,
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--header-ahv-cl)
+}
+
+.address-list .link:active,
+.address-list .link:hover,
+.address-list .link:focus {
+  color: var(--header-ahv-cl)
+}
+
 /**
   |============================
   | Main styles
   |============================
 */
+
+/* Hero section */
+
+.hero-section {
+  background-color: var(--secondary-bg-cl);
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--hero-cl);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+.hero-btn {
+  color: var(--hero-cl);
+  background-color: var(--btn-bg-cl);
+  font-weight: 500;
+  letter-spacing: 0.04;
+}
+
+/* Features section */
+
+.features-item {
+  color: var(--secondary-cl);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.20;
+}
+
+/* Team section */
+
+
 
 /**
   |============================
