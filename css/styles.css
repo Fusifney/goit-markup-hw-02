@@ -37,7 +37,10 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-  color: var(--secondary-cl)
+  color: var(--secondary-cl);
+
+  /* bot req */
+  letter-spacing: 0.02em;
 }
 
 .list-header {
@@ -111,8 +114,6 @@ body {
 .hero-section {
   background-color: var(--secondary-bg-cl);
   text-align: center;
-  /* bot req */
-  letter-spacing: 0.02em;
 }
 
 .hero-title {
@@ -140,11 +141,6 @@ body {
 
 /* Features section */
 
-/* bot req */
-.features-section {
-  letter-spacing: 0.02em;
-}
-
 /* WAWD section */
 
 /* Team section */
@@ -155,11 +151,6 @@ body {
 
 .team-item {
   text-align: center;
-}
-
-/* bot req */
-.section-title {
-  letter-spacing: 0.02em;
 }
 
 /* bot req */
