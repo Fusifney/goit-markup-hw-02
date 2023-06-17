@@ -120,7 +120,6 @@ body {
   background-color: var(--hero-btn-bg-cl);
   font-weight: 500;
   letter-spacing: 0.04em;
-  display: flex;
 }
 
 .hero-btn:active,
@@ -151,8 +150,6 @@ body {
 
 .portfolio-btn {
   font-weight: 500;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--web-cl);
