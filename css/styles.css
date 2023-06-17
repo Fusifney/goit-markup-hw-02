@@ -188,7 +188,6 @@ body {
 */
 
 /* common styles */
-
 .section-title {
   letter-spacing: 0.02em;
 }
@@ -209,10 +208,6 @@ body {
 
 .hero-btn {
   line-height: 1.50;
-}
-
-.bot-list {
-  background-color: var(--primary-bg-cl);
 }
 
 /* portfolio styles */
