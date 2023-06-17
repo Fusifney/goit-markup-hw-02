@@ -38,9 +38,6 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--secondary-cl);
-
-  /* bot req */
-  letter-spacing: 0.02em;
 }
 
 .list-header {
@@ -48,9 +45,6 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.20;
-
-  /* bot req */
-  letter-spacing: 0.02em;
 }
 
 /* Reset */
@@ -101,11 +95,6 @@ body {
   color: var(--header-ahf-cl)
 }
 
-/* bot req */
-.header-address {
-  font-style: normal;
-}
-
 /**
   |============================
   | Main styles
@@ -124,9 +113,6 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-
-  /* bot req */
-  letter-spacing: 0.02em;
 }
 
 .hero-btn {
@@ -134,9 +120,6 @@ body {
   background-color: var(--hero-btn-bg-cl);
   font-weight: 500;
   letter-spacing: 0.04em;
-
-  /* bot req */
-  line-height: 1.50;
 }
 
 .hero-btn:active,
@@ -159,11 +142,6 @@ body {
   text-align: center;
 }
 
-/* bot req */
-.bot-list {
-  background-color: var(--primary-bg-cl);
-}
-
 /**
   |============================
   | Portfolio styles
@@ -176,9 +154,6 @@ body {
   letter-spacing: 0.04em;
   color: var(--web-cl);
   background-color: var(--tertiary-bg-cl);
-
-  /* bot req */
-  line-height: 1.50;
 }
 
 .portfolio-btn:active,
@@ -204,4 +179,43 @@ body {
 
 .footer-text {
   color: var(--tertiary-cl)
+}
+
+/**
+  |============================
+  | Bot requirements
+  |============================
+*/
+
+/* common styles */
+
+.section-title {
+  letter-spacing: 0.02em;
+}
+
+.list-header {
+  letter-spacing: 0.02em;
+}
+
+/* header styles */
+.header-address {
+  font-style: normal;
+}
+
+/* main styles */
+.hero-title {
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  line-height: 1.50;
+}
+
+.bot-list {
+  background-color: var(--primary-bg-cl);
+}
+
+/* portfolio styles */
+.portfolio-btn {
+  line-height: 1.50;
 }
