@@ -121,6 +121,9 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+
+  /* bot req */
+  letter-spacing: 0.02em;
 }
 
 .hero-btn {
