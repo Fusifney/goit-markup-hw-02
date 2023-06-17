@@ -95,6 +95,11 @@ body {
   color: var(--header-ahf-cl)
 }
 
+/* bot req */
+.header-address {
+  font-style: normal;
+}
+
 /**
   |============================
   | Main styles
@@ -106,6 +111,8 @@ body {
 .hero-section {
   background-color: var(--secondary-bg-cl);
   text-align: center;
+  /* bot req */
+  letter-spacing: 0.02em;
 }
 
 .hero-title {
@@ -120,6 +127,9 @@ body {
   background-color: var(--hero-btn-bg-cl);
   font-weight: 500;
   letter-spacing: 0.04em;
+
+  /* bot req */
+  line-height: 1.50;
 }
 
 .hero-btn:active,
@@ -129,6 +139,11 @@ body {
 }
 
 /* Features section */
+
+/* bot req */
+.features-section {
+  letter-spacing: 0.02em;
+}
 
 /* WAWD section */
 
@@ -140,6 +155,16 @@ body {
 
 .team-item {
   text-align: center;
+}
+
+/* bot req */
+.section-title {
+  letter-spacing: 0.02em;
+}
+
+/* bot req */
+.team-list {
+  background-color: var(--primary-bg-cl);
 }
 
 /**
