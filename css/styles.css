@@ -38,6 +38,9 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--secondary-cl);
+
+  /* bot req */
+  letter-spacing: 0.02em;
 }
 
 .list-header {
