@@ -38,9 +38,6 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--secondary-cl);
-
-  /* bot req */
-  letter-spacing: 0.02em;
 }
 
 .list-header {
@@ -48,6 +45,9 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.20;
+
+  /* bot req */
+  letter-spacing: 0.02em;
 }
 
 /* Reset */
@@ -157,7 +157,7 @@ body {
 }
 
 /* bot req */
-.team-list {
+.bot-list {
   background-color: var(--primary-bg-cl);
 }
 
@@ -173,6 +173,9 @@ body {
   letter-spacing: 0.04em;
   color: var(--web-cl);
   background-color: var(--tertiary-bg-cl);
+
+  /* bot req */
+  line-height: 1.50;
 }
 
 .portfolio-btn:active,
