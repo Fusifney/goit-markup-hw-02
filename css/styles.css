@@ -7,13 +7,13 @@
   --secondary-cl: #2E2F42;
   --tertiary-cl: #F4F4FD;
   --web-cl: #4D5AE5;
-  --header-ahv-cl: #404BBF;
+  --header-ahf-cl: #404BBF;
   --hero-cl: #ffffff;
   /* Background Colors */
   --primary-bg-cl: #ffffff;
   --secondary-bg-cl: #2E2F42;
   --tertiary-bg-cl: #F4F4FD;
-  --btn-bg-cl: #4D5AE5;
+  --hero-btn-bg-cl: #4D5AE5;
   /* Other */
 }
 
@@ -25,11 +25,26 @@
 
 body {
   font-family: var(--primary-font);
-  font: size 16px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.50;
   letter-spacing: 0.02em;
   color: var(--primary-cl);
   background-color: var(--primary-bg-cl);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--secondary-cl)
+}
+
+.list-header {
+  color: var(--secondary-cl);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.20;
 }
 
 /* Reset */
@@ -65,7 +80,7 @@ body {
   color: var(--web-cl)
 }
 
-.studio-logo {
+.header-studio-logo {
   color: var(--secondary-cl);
 }
 
@@ -74,16 +89,10 @@ body {
   color: var(--secondary-cl);
 }
 
-.nav-list .link:active,
-.nav-list .link:hover,
-.nav-list .link:focus {
-  color: var(--header-ahv-cl)
-}
-
-.address-list .link:active,
-.address-list .link:hover,
-.address-list .link:focus {
-  color: var(--header-ahv-cl)
+.header-list .link:active,
+.header-list .link:hover,
+.header-list .link:focus {
+  color: var(--header-ahf-cl)
 }
 
 /**
@@ -108,26 +117,69 @@ body {
 
 .hero-btn {
   color: var(--hero-cl);
-  background-color: var(--btn-bg-cl);
+  background-color: var(--hero-btn-bg-cl);
   font-weight: 500;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
+  display: flex;
+}
+
+.hero-btn:active,
+.hero-btn:focus,
+.hero-btn:hover {
+  background-color: var(--header-ahf-cl)
 }
 
 /* Features section */
 
-.features-item {
-  color: var(--secondary-cl);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.20;
-}
+/* WAWD section */
 
 /* Team section */
 
+.team-section {
+  background-color: var(--tertiary-bg-cl);
+}
 
+.team-item {
+  text-align: center;
+}
+
+/**
+  |============================
+  | Portfolio styles
+  |============================
+*/
+
+.portfolio-btn {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--web-cl);
+  background-color: var(--tertiary-bg-cl);
+}
+
+.portfolio-btn:active,
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--hero-cl);
+  background-color: var(--header-ahf-cl);
+}
 
 /**
   |============================
   | Footer styles
   |============================
 */
+
+.footer-section {
+  background-color: var(--secondary-bg-cl);
+}
+
+.footer-studio-logo {
+  color: var(--tertiary-cl)
+}
+
+.footer-text {
+  color: var(--tertiary-cl)
+}
